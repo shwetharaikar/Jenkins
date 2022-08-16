@@ -14,13 +14,17 @@ public class Example1 {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		FileInputStream fis = new FileInputStream("./CommonProperty.properties");
-		Properties p = new Properties();
-		p.load(fis);
+	//	FileInputStream fis = new FileInputStream("./CommonProperty.properties");
+	//	Properties p = new Properties();
+	//	p.load(fis);
 		
-		String URL = p.getProperty("url");
+		//String URL = p.getProperty("url");
+		//System.out.println(URL);
+		
+	//	driver.get(URL);
+		String URL = System.getProperty("url");
 		System.out.println(URL);
-		
-		driver.get(URL);		
+		driver.get(URL);
+		System.out.println("welcome");
 	}
 }
