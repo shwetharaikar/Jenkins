@@ -20,6 +20,7 @@ public class Example1 {
 		
 		String URL = p.getProperty("url");
 		System.out.println(URL);
+		System.out.println("Line added");
 		
 		driver.get(URL);		
 	}
