@@ -27,6 +27,6 @@ public class Example1 {
 		driver.get(URL);
 		System.out.println("welcome");
 		System.out.println("Pull test");
-		System.out.println("done");
+		System.out.println("tested");
 	}
 }
